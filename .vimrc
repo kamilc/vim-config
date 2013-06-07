@@ -17,6 +17,7 @@ Bundle 'rosenfeld/conque-term'
 Bundle 'Lokaltog/powerline'
 Bundle 'motemen/git-vim'
 Bundle 'mattn/zencoding-vim'
+Bundle 'tpope/vim-haml'
 
 filetype plugin indent on
 set number
