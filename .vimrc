@@ -18,6 +18,7 @@ Bundle 'Lokaltog/powerline'
 Bundle 'motemen/git-vim'
 Bundle 'mattn/zencoding-vim'
 Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-liquid'
 
 filetype plugin indent on
 set number
