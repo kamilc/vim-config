@@ -1,3 +1,4 @@
+colorscheme desert
 set nocompatible               " be iMproved
 filetype off                   " required!
 
@@ -18,7 +19,18 @@ Bundle 'Lokaltog/powerline'
 Bundle 'motemen/git-vim'
 Bundle 'mattn/zencoding-vim'
 Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-liquid'
+Bundle 'rainux/vim-desert-warm-256'
+Bundle 'veselosky/vim-rst'
+Bundle 'vim-scripts/rest.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'vim-scripts/LanguageTool'
+Bundle 'plasticboy/vim-markdown'
+Bundle 'guns/vim-clojure-static'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'tpope/vim-fireplace.git'
+Bundle 'tpope/vim-classpath.git'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'elixir-lang/vim-elixir'
 
 filetype plugin indent on
 set number
@@ -26,3 +38,11 @@ set ofu=syntaxcomplete#Complete
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 set nu ts=2 sw=2 et shiftround ignorecase smartcase
+syntax enable
+
+let mapleader = "\<Space>"
+nnoremap <Leader>o :CtrlP<CR>
+nnoremap <Leader>w :w<CR>
+nmap <Leader><Leader> V
+vmap v <Plug>(expand_region_expand)
+vmap <C-v> <Plug>(expand_region_shrink)
