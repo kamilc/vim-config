@@ -6,7 +6,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-" required! 
+" required!
 Bundle 'gmarik/vundle'
 
 Bundle 'kien/ctrlp.vim'
@@ -43,6 +43,13 @@ syntax enable
 let mapleader = "\<Space>"
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
+nnoremap <Leader>- :sp<CR>
+nnoremap <Leader>\ :vsp<CR>
+nnoremap <Leader>k <C-w><Up><CR>
+nnoremap <Leader>j <C-w><Down><CR>
+nnoremap <Leader>l <C-w><Right><CR>
+nnoremap <Leader>h <C-w><Left><CR>
+nnoremap <Leader>b :b #<CR>
 nmap <Leader><Leader> V
 vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
