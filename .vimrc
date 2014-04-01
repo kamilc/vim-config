@@ -17,7 +17,7 @@ Bundle 'honza/vim-snippets'
 Bundle 'rosenfeld/conque-term'
 Bundle 'Lokaltog/powerline'
 Bundle 'motemen/git-vim'
-Bundle 'mattn/zencoding-vim'
+Bundle 'mattn/emmet-vim'
 Bundle 'tpope/vim-haml'
 Bundle 'rainux/vim-desert-warm-256'
 Bundle 'veselosky/vim-rst'
@@ -53,3 +53,4 @@ nnoremap <Leader>b :b #<CR>
 nmap <Leader><Leader> V
 vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
+imap ii <Esc>
