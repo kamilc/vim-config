@@ -45,3 +45,4 @@ nnoremap <Leader>l <C-w><Right><CR>
 nnoremap <Leader>h <C-w><Left><CR>
 nnoremap <Leader>b :b #<CR>
 nnoremap <Leader>q :q!<CR>
+nmap <Leader><Leader> V
